@@ -341,4 +341,3 @@ Assignment 3: MST Transportation Network Optimization
 
 ---
 
-**Note**: All test results are reproducible. Run `mvn test` to verify algorithm correctness and performance metrics.
