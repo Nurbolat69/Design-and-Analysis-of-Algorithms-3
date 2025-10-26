@@ -1,0 +1,70 @@
+{
+  "graphs": [
+    {
+      "id": 1,
+      "nodes": ["A", "B", "C", "D", "E"],
+      "edges": [
+        {"from": "A", "to": "B", "weight": 4},
+        {"from": "A", "to": "C", "weight": 3},
+        {"from": "B", "to": "C", "weight": 2},
+        {"from": "B", "to": "D", "weight": 5},
+        {"from": "C", "to": "D", "weight": 7},
+        {"from": "C", "to": "E", "weight": 8},
+        {"from": "D", "to": "E", "weight": 6}
+      ]
+    },
+    {
+      "id": 2,
+      "nodes": ["A", "B", "C", "D"],
+      "edges": [
+        {"from": "A", "to": "B", "weight": 1},
+        {"from": "A", "to": "C", "weight": 4},
+        {"from": "B", "to": "C", "weight": 2},
+        {"from": "C", "to": "D", "weight": 3},
+        {"from": "B", "to": "D", "weight": 5}
+      ]
+    },
+    {
+      "id": 3,
+      "nodes": ["V1", "V2", "V3", "V4", "V5", "V6"],
+      "edges": [
+        {"from": "V1", "to": "V2", "weight": 2},
+        {"from": "V1", "to": "V3", "weight": 4},
+        {"from": "V2", "to": "V3", "weight": 1},
+        {"from": "V2", "to": "V4", "weight": 7},
+        {"from": "V3", "to": "V4", "weight": 3},
+        {"from": "V3", "to": "V5", "weight": 6},
+        {"from": "V4", "to": "V5", "weight": 2},
+        {"from": "V4", "to": "V6", "weight": 5},
+        {"from": "V5", "to": "V6", "weight": 4}
+      ]
+    },
+    {
+      "id": 4,
+      "nodes": ["X", "Y", "Z"],
+      "edges": [
+        {"from": "X", "to": "Y", "weight": 10},
+        {"from": "Y", "to": "Z", "weight": 15},
+        {"from": "X", "to": "Z", "weight": 20}
+      ]
+    },
+    {
+      "id": 5,
+      "nodes": ["P1", "P2", "P3", "P4", "P5", "P6", "P7", "P8"],
+      "edges": [
+        {"from": "P1", "to": "P2", "weight": 3},
+        {"from": "P1", "to": "P3", "weight": 5},
+        {"from": "P2", "to": "P3", "weight": 2},
+        {"from": "P2", "to": "P4", "weight": 4},
+        {"from": "P3", "to": "P5", "weight": 6},
+        {"from": "P4", "to": "P5", "weight": 3},
+        {"from": "P4", "to": "P6", "weight": 7},
+        {"from": "P5", "to": "P6", "weight": 4},
+        {"from": "P5", "to": "P7", "weight": 8},
+        {"from": "P6", "to": "P7", "weight": 5},
+        {"from": "P6", "to": "P8", "weight": 6},
+        {"from": "P7", "to": "P8", "weight": 3}
+      ]
+    }
+  ]
+}
