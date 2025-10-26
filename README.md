@@ -4,6 +4,11 @@ Complete implementation of Prim's and Kruskal's algorithms for optimizing city t
 
 ## 📁 Project Structure
 
+```
+mst-transportation-network/
+├── .github/
+│   └── workflows/
+│       └── ci-cd.yml              # CI/CD pipeline configuration
 ├── src/
 │   ├── main/
 │   │   └── java/
@@ -328,7 +333,8 @@ However, for **specific applications** with dense graphs and adjacency list repr
 ---
 
 ## 👤 Author
-Nurbolat Suleimenov
+
+Suleimenov Nurbolat
 
 Assignment 3: MST Transportation Network Optimization  
 
